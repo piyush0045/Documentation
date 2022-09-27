@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#container{
+    display: flex;
+}
+
+#Documentation{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px 20px 10px;
+    position: fixed;
+    background-color: antiquewhite;
+    height: 100%;
+    width: 25%;
+    border-right: 2px solid black;
+}
+
+.heading{
+    border-bottom: 2px solid black;
+}
+
+.iteam{
+ padding: 10px 0px;
+}
+
+.iteam a{
+    text-decoration: none;
+}
+
+#Discription{
+    position: absolute;
+     margin-left: 22rem; 
+    padding: 60px;
+    background-color: #ccc;
+}
+
+#Intro,#Know,#JS-Java,#Hello,#Variables{
+    padding: 20px 0px;
+}
+
+p{
+ padding: 20px 0px;
+}
+
